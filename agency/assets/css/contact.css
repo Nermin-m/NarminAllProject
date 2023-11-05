@@ -1,0 +1,401 @@
+@import url(font.css);
+@import url(reset.css);
+@import url(var.css);
+
+.container {
+    width: 100%;
+
+}
+
+.header {
+    padding: 20px;
+    background-color: var(--white);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #e2dcdc;
+    margin-bottom: 90px;
+}
+
+/* .ul ul .li_home {
+    color: var(--blue);
+} */
+
+/* .ul ul .li_home::before {
+    content: '';
+    position: relative;
+    bottom: 18px;
+    right: 5px;
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-color: var(--blue);
+    border-radius: 30px;
+} */
+
+.logo p {
+    font-family: var(--pop);
+    color: var(--blue);
+    font-size: 2.3rem;
+    font-weight: 700;
+}
+
+.ul li {
+    font-family: var(--pop);
+    font-weight: 400;
+    font-size: 1.1rem;
+    color: var(--black);
+    margin-right: 40px;
+}
+
+.ul ul {
+    display: flex;
+    align-items: center;
+}
+
+
+.contact {
+    padding: 15px 30px;
+    background-color: var(--blue);
+    border-radius: 6px;
+    font-family: var(--pop);
+    font-weight: 400;
+    font-size: 1.1rem;
+    color: var(--white);
+    line-height: 20px;
+    margin-left: 167px;
+    cursor: pointer;
+}
+
+.section1 .left {
+    width: 50%;
+    padding-left: 12%;
+    padding-top: 40px;
+
+}
+
+.section1 .top h1 {
+    font-family: var(--pop);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 45px;
+    color: #000000;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.section1 .top p {
+
+    font-family: var(--pop);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: #777777;
+    width: 60%;
+    line-height: 40px;
+}
+
+.section1 .top {
+    display: flex;
+
+}
+
+.section1 .top {
+    margin-bottom: 10%;
+}
+
+.section1 .down .images {
+    margin-left: 12%;
+}
+
+.section1 .down h2 {
+    margin-left: 13%;
+    font-family: var(--pop);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #000000;
+    margin-bottom: 18px;
+}
+
+.section1 .down {
+    display: flex;
+    gap: 100px;
+}
+
+.section1 .down .div2 {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.section1 .down .div {
+    width: 33%;
+}
+
+.section1 .down .div2 p {
+    font-family: var(--pop);
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 30px;
+    color: #333333;
+
+}
+
+.section1 .down .div3 {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+}
+
+.section1 .down .div3 p {
+    font-family: var(--pop);
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 30px;
+
+    color: #333333;
+
+}
+.section1 .down {
+    margin-left: 8%;
+    margin-right: 8%;
+}
+
+.section1 .down .div {
+    border-right: 1px solid #c2c2c278;
+}
+
+.section1 {
+    margin-bottom: 90px;
+}
+
+.section2 .top h2 {
+    font-family: var(--pop);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    color: #000000;
+    margin-bottom: 20px;
+
+}
+
+.section2 .top p {
+    font-family: var(--pop);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    text-align: center;
+    color: #777777;
+    margin-bottom: 80px;
+}
+
+.section2 .top {
+    display: flex;
+    flex-direction: column;
+    padding-top: 52px;
+    margin-top: 86px;
+    align-items: center;
+
+}
+
+.section2 {
+    background-color: #E8F4FA;
+    ;
+}
+
+
+.section2 .down {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin: auto;
+}
+
+.section2 .down label {
+    font-family: var(--pop);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: -0.3px;
+    color: #4F4F4F;
+}
+
+.section2 .down .label {
+    margin-bottom: 10px;
+}
+
+.section2 .down input {
+    margin-bottom: 50px;
+    background-color: #FFFFFF;
+    border-radius: 9px;
+    border: none;
+    height: 50px;
+}
+
+.section2 .down .form {
+    display: flex;
+    flex-direction: column;
+    width: 47%;
+}
+
+.section2 .down .s2t {
+    display: flex;
+    justify-content: space-between;
+}
+
+.section2 .down .message {
+    height: 250px;
+}
+
+.section2 .down .button {
+    width: 28%;
+    height: 50px;
+    background: #1090CB;
+    border-radius: 10px;
+    border: none;
+    font-family: var(--pop);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+.section2 .down .forbutton {
+    display: flex;
+    justify-content: end;
+    margin-bottom: 60px;
+}
+.section9 {
+    width: 100%;
+    display: flex;
+
+    padding: 82px;
+    justify-content: center;
+    gap: 30px;
+    border-bottom: 0.8px solid #D2D2D2;
+
+}
+
+.section9 .left {
+    display: flex;
+    /* gap: 10px; */
+
+}
+
+.section9 .right {
+    display: flex;
+    gap: 60px;
+    align-items: end;
+}
+
+.section9 .div1 h2 {
+    font-family: var(--pop);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    color: #00329B;
+    margin-bottom: 27px;
+
+}
+
+.section9 .div1 p {
+    font-family: var(--pop);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+
+    line-height: 32px;
+    color: #515151;
+    margin-bottom: 25px;
+
+
+}
+
+.section9 .div1 {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    height: 60px;
+
+
+}
+
+.section9 .div1 p {
+    width: 82%;
+}
+
+.section9 .div2 {
+
+    height: 60px;
+}
+
+.section9 .div3 {
+
+
+    height: 150px;
+}
+
+.section9 .div4 {
+
+
+    height: 60px;
+}
+
+.section9 .div2 ul li {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    color: #515151;
+    width: 100px;
+}
+
+.section9 .div2 ul li:first-child {
+    color: #070707;
+    font-weight: 680;
+}
+
+.section9 .div3 p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 35px;
+    color: #515151;
+    width: 300px;
+
+
+}
+
+.section9 .div3 h3 {
+
+    font-family: var(--pop);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 36px;
+    color: #000000;
+}
+
+.section9 .div4 ul {
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+}
+footer{
+   padding: 30px;
+font-family:var(--pop);
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+text-align: center;
+color: #686868;
+}
+.co {
+    text-decoration: none;
+    color:  var(--black)
+}

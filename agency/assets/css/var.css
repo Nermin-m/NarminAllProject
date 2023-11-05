@@ -1,0 +1,11 @@
+:root{
+ --white: #FFFFFF;
+--blue: #1090CB;
+--black: #000000;
+--pop: 'Poppins', sans-serif;
+--grey: #5C5C5C;
+--size: 1.5rem;
+}
+*{
+    box-sizing: border-box;
+}
